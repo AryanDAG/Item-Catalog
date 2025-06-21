@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link, Navigate } from "react-router-dom";
 import AddItem from "./pages/AddItem";
 import ViewItems from "./pages/ViewItems";
 
@@ -11,6 +11,7 @@ function App() {
         <Link to="/view" className="hover:underline">View Items</Link>
       </nav>
       <Routes>
+        <Route path="/" element={<Navigate to="/view" />} />
         <Route path="/add" element={<AddItem />} />
         <Route path="/view" element={<ViewItems />} />
       </Routes>

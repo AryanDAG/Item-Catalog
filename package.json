@@ -15,9 +15,9 @@
     "react-router-dom": "^7.6.2",
     "react-scripts": "5.0.1",
     "swiper": "^11.2.8",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://AryanDAG.github.io/Item-Catalog"
+    "web-vitals": "^2.1.4"
   },
+  "homepage": "https://AryanDAG.github.io/Item-Catalog",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
